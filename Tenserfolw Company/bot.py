@@ -27,7 +27,7 @@ LANGUAGE_OPTIONS = {
 
 # Initialize Generative AI and translator
 translator = Translator()
-genai.configure(api_key="AIzaSyAqxAc7QMhVS190bcWgQd6XTHKsqIjx1S4")
+genai.configure(api_key="YOUR-API-KEY")
 model = genai.GenerativeModel("gemini-pro")
 
 
